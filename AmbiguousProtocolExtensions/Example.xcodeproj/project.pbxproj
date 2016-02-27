@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2416FCA11C81DA9200129FE4 /* MyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2416FCA01C81DA9200129FE4 /* MyObject.swift */; };
 		24E82D241C81D7480050324D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E82D231C81D7480050324D /* AppDelegate.swift */; };
 		24E82D261C81D7480050324D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E82D251C81D7480050324D /* Assets.xcassets */; };
 		24E82D291C81D7480050324D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E82D271C81D7480050324D /* MainMenu.xib */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2416FCA01C81DA9200129FE4 /* MyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyObject.swift; sourceTree = "<group>"; };
 		24E82D201C81D7480050324D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E82D231C81D7480050324D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24E82D251C81D7480050324D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				24E82D251C81D7480050324D /* Assets.xcassets */,
 				24E82D271C81D7480050324D /* MainMenu.xib */,
 				24E82D2A1C81D7480050324D /* Info.plist */,
+				2416FCA01C81DA9200129FE4 /* MyObject.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2416FCA11C81DA9200129FE4 /* MyObject.swift in Sources */,
 				24E82D241C81D7480050324D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +358,7 @@
 				24E82D2F1C81D7480050324D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

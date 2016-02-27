@@ -5,7 +5,6 @@
 
 import Cocoa
 import FrameworkA
-// import FrameworkB
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
